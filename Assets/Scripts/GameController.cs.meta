@@ -3,7 +3,10 @@ guid: bfb31e5e042030e49887845e2abd689f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - headPrefab: {fileID: 2573577644207450144, guid: 2cd1af08bfaf8a14e80d771afe3025c4, type: 3}
+  - panelStartGame: {instanceID: 0}
+  - spawnFood: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -3,7 +3,12 @@ guid: c1e390d3fb59e9d47951586db2df39bb
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - borderTop: {instanceID: 0}
+  - borderBottom: {instanceID: 0}
+  - borderLeft: {instanceID: 0}
+  - borderRight: {instanceID: 0}
+  - food: {fileID: 8729890852496995248, guid: 6ddf07417b7dc834993867ed2c83d62b, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

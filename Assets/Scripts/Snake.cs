@@ -53,7 +53,7 @@ public class Snake : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.name);
+        // Debug.Log(collision.name);
         if (collision.name.StartsWith("Food"))
         {
             eat = true;
@@ -62,6 +62,8 @@ public class Snake : MonoBehaviour
         else
         {
             Debug.Log("Morreu");
+            GameObject gameController = GameObject.FindGameObjectWithTag("GameController");
+            gameController.GetComponent<GameController>().GameOver();
         }
     }
 }
